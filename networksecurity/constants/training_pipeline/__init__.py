@@ -3,8 +3,21 @@ import sys
 import numpy as np 
 import pandas as pd
 
+
+"""
+This is the __init__.py file for the training_pipeline module. It contains constants that are used throughout the training pipeline.
+"""
+TARGET_COLUMN = "label"
+PIPELINE_NAME = "network_security"
+ARTIFACT_DIR = "artifact"
+FILE_NAME = "phishing_data.csv"
+
+TRAIN_FILE_NAME = "train.csv"
+TEST_FILE_NAME = "test.csv"
+
 """
 DATA ingestion related constants start with DATA_INGESTION VAR NAME
+
 """
 
 DATA_INGESTION_COLLECTION_NAME = "Network_data"
